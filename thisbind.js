@@ -17,7 +17,7 @@ falarDePessoa();
 function pessoa() {
   this.idade = 0
 
-  const self = this;
+  const self = this; // colocar o this em uma const estou certificando de que o this vai realmente apontar para onde eu desejo que ele aponte
   setInterval(function() {
   self.idade++
   console.log(self.idade);
