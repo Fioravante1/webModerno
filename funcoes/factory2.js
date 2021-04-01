@@ -1,4 +1,4 @@
-// Criando uma função fabrica(factory)
+// Criando uma função fabrica(factory) 
 
 function criarProduto(nome, preco) {
   return {
